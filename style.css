@@ -5,10 +5,13 @@ body{
 h1{
     font-size: 3rem;
 }
+h2{
+    font-size: 2.5rem;
+}
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 120px;
 }
@@ -42,3 +45,49 @@ section p{
     background-position: right;
     padding-right: 7.5rem;
 }
+.container{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.container-box{
+    box-shadow: 5px 5px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: .5rem;
+    padding-left: 15px;
+    
+}
+#full-stack{
+    border-left: .4rem solid coral;
+}
+#baby-web{
+    border-left: .4rem solid blue;
+}
+footer p{
+    text-align: center;
+}
+/* .container .small-container{
+    display: flex;
+    background: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: left;
+}
+.container .small-container .box{
+    width: 50%;
+    padding-left: 2%;
+    box-shadow:  5px 5px 10px;
+    margin: 1rem 3rem 2rem;
+    padding: 1rem;
+    border: .5rem solid white;
+    border-left-color: #F6725D;
+    border-radius: .5rem;
+}
+.container .small-container .box h1{
+    font-size: 2rem;
+}
+.container .small-container .box h3{
+    color: orange;
+} */
